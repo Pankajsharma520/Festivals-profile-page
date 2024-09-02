@@ -1,0 +1,152 @@
+@import url(/assets/css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/* --------------Nav-bar------------ */
+.nav-btn {
+    min-width: 118px;
+    min-height: 46px;
+    border-radius: 23px;
+    border: none;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-section {
+    box-shadow: 0px 8px 35px 0px #0000000D;
+}
+
+/* ======================Hero-section============================== */
+.hero-img-1 {
+    margin-top: 67px;
+}
+
+.home-username {
+    margin-top: 71px;
+}
+
+.quote-svg {
+    margin-top: 166px;
+}
+
+.hero-img-2 {
+    margin-top: 134px;
+}
+
+.feed-btn {
+    border-radius: 23px;
+    padding: 11px 28px;
+    min-width: 254px;
+    background: #2C49FE1A;
+    border: none;
+    transition: all 300ms linear;
+}
+
+.feed-btn:hover {
+    background: #2C49FE;
+}
+
+.feed-btn:hover a {
+    color: #FFFFFF !important;
+}
+
+.play-btn-img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* ====================Gallery-section============================= */
+.gallery-svg {
+    margin-top: 55px;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 24px;
+    margin-top: 77px;
+}
+
+.gi-1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.gi-2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.gi-3 {
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+
+.gi-4 {
+    grid-row: 2/3;
+    grid-column: 1/3;
+}
+
+.gi-5 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.gi-6 {
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+
+/* ======================================Tell-us! Section========================================= */
+
+.tell-us-svg {
+    margin-top: 67px;
+}
+
+.tell-us-para {
+    max-width: 719px;
+}
+
+.input {  
+    outline: none; 
+    border: none;
+}
+
+.input-box{
+    width: 100%;
+    border: 1px solid #9CA1BE;
+    border-radius: 35px;
+    max-width: 1319px;
+    padding: 20px 9px;
+    
+}
+
+.input-btn{
+    border: none;
+        padding: 13px 28px;
+        border-radius: 36px;
+        right: 0;
+        transform: translate(-3%,-20%);       
+}
+
+.input-img{
+    left: 0;
+        transform: translate(14%, -20%);
+}
+
+.input{
+    margin-left: 85px;
+}
+
+.comment{
+        padding: 14px 15px 4px 20px;
+        border-radius: 0px 20px 20px 20px;
+}
