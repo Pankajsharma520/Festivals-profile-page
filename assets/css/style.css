@@ -125,25 +125,19 @@
     border: 1px solid #9CA1BE;
     border-radius: 35px;
     max-width: 1319px;
-    padding: 20px 9px;
-
+    padding: 7px 7px;
 }
 
 .input-btn {
     border: none;
     padding: 13px 28px;
+    max-width: 208px;
     border-radius: 36px;
-    right: 0;
-    transform: translate(-3%, -20%);
-}
-
-.input-img {
-    left: 0;
-    transform: translate(14%, -20%);
+    float: right;
 }
 
 .input {
-    margin-left: 85px;
+    margin-left: 21px;
 }
 
 .comment {
@@ -235,6 +229,10 @@
     .footer-para {
         text-align: center;
     }
+
+    .footer-list{
+        align-items: center;
+    }
 }
 
 @media (max-width:768px) {
@@ -257,5 +255,9 @@
         flex-direction: column;
     }
 
-
+    .input-btn{
+       float: unset;
+       display: block;
+       margin: auto; 
+    }
 }
