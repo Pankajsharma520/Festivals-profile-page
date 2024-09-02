@@ -115,38 +115,147 @@
     max-width: 719px;
 }
 
-.input {  
-    outline: none; 
+.input {
+    outline: none;
     border: none;
 }
 
-.input-box{
+.input-box {
     width: 100%;
     border: 1px solid #9CA1BE;
     border-radius: 35px;
     max-width: 1319px;
     padding: 20px 9px;
-    
+
 }
 
-.input-btn{
+.input-btn {
     border: none;
-        padding: 13px 28px;
-        border-radius: 36px;
-        right: 0;
-        transform: translate(-3%,-20%);       
+    padding: 13px 28px;
+    border-radius: 36px;
+    right: 0;
+    transform: translate(-3%, -20%);
 }
 
-.input-img{
+.input-img {
     left: 0;
-        transform: translate(14%, -20%);
+    transform: translate(14%, -20%);
 }
 
-.input{
+.input {
     margin-left: 85px;
 }
 
-.comment{
-        padding: 14px 15px 4px 20px;
-        border-radius: 0px 20px 20px 20px;
+.comment {
+    padding: 14px 15px 20px 20px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+/* ==============================Footer-section============================== */
+.mt-118 {
+    margin-top: 118px;
+}
+
+.main-logo-footer {
+    margin-top: 81px;
+}
+
+.footer-para {
+    max-width: 346px;
+    line-height: 21px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.show-more-box {
+    background: #2D3CAE87;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-more {
+    max-width: 43px;
+
+}
+
+.footer-link-title {
+    margin-top: 126px;
+}
+
+.copyright {
+    margin-top: 96px;
+    padding-bottom: 25px;
+}
+
+.mt-13{
+    margin-top: 13px;
+}
+
+/* ============================================Responsive================================================== */
+@media (max-width:1200px) {
+    .feed-buttons {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:992px) {
+    .quote-svg {
+        margin-top: 100px;
+    }
+
+    .hero-img-2 {
+        margin-top: 80px;
+    }
+
+    .gi-3 {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .gi-5 {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .gi-6 {
+        grid-row: 3/4;
+        grid-column: 1/3;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-para {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .main-heading-with-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-username {
+        text-align: center;
+    }
+
+    .hero-para-1 {
+        text-align: center;
+    }
+
+    .feed-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }

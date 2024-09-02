@@ -1,5 +1,6 @@
 :root {
     /* ===========font-size=============== */
+    --fs-xs: 12px;
     --fs-sm: 14px;
     --fs-md: 16px;
     --fs-lg: 20px;
@@ -16,10 +17,10 @@
     /* =================text-color================== */
     --grey: #666666;
     --sea-blue: #01C8FF;
-
+}
     /* ======================Classes======================== */
-    .fs-sm {
-        font-size: var(--fs-sm);
+    .fs-xs {
+        font-size: var(--fs-xs);
     }
 
     .fs-md {
@@ -65,4 +66,3 @@
     .text-sea-blue {
         color: var(--sea-blue);
     }
-}
