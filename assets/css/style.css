@@ -13,6 +13,10 @@
     border: none;
 }
 
+.ml-56{
+    margin-left: 56px;
+}
+
 .navbar-toggler {
     border: none !important;
 }
@@ -118,22 +122,25 @@
 .input {
     outline: none;
     border: none;
+    width: 100%;
 }
 
 .input-box {
     width: 100%;
     border: 1px solid #9CA1BE;
     border-radius: 35px;
-    max-width: 1319px;
     padding: 7px 7px;
+}
+
+.img-input{
+    width: 100%;
 }
 
 .input-btn {
     border: none;
-    padding: 13px 28px;
-    max-width: 208px;
+    min-height: 56px;
+    min-width: 208px;
     border-radius: 36px;
-    float: right;
 }
 
 .input {
@@ -256,8 +263,15 @@
     }
 
     .input-btn{
-       float: unset;
-       display: block;
        margin: auto; 
+    }
+}
+@media (max-width:576px) {
+    .input-box{
+       flex-wrap: wrap; 
+       overflow: hidden; 
+    }
+    .input{
+        margin-left: 5px;
     }
 }
