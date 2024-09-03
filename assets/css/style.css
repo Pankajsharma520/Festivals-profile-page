@@ -13,10 +13,6 @@
     border: none;
 }
 
-.ml-56{
-    margin-left: 56px;
-}
-
 .navbar-toggler {
     border: none !important;
 }
@@ -40,6 +36,12 @@
 
 .hero-img-2 {
     margin-top: 134px;
+}
+
+.hero-top{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
 }
 
 .feed-btn {
@@ -123,6 +125,7 @@
     outline: none;
     border: none;
     width: 100%;
+    margin-left: 21px;
 }
 
 .input-box {
@@ -141,10 +144,6 @@
     min-height: 56px;
     min-width: 208px;
     border-radius: 36px;
-}
-
-.input {
-    margin-left: 21px;
 }
 
 .comment {
